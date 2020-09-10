@@ -13,16 +13,19 @@ body {
     width: 70%;
     background-color: #f5f8fa;
     margin: auto;
-    position: relative;
 }
 
-/* .container-header::after{
+/* _____inizio header____ */
+.container-header{
+    padding: 25px;
+}
+
+.container-header::after{
     content: "";
     display: table;
     clear: both;
-} */
+}
 
-/* _____inizio header____ */
 header {
     height: 400px;
     background-color: red;
@@ -32,18 +35,15 @@ header {
 .nav-top {
     background-color: #f5f8fa;
     border-bottom: 1px solid grey;
-    position: relative;
 }
 
 .nav-top-left {
-    padding: 30px 10px;
+    float: left;
 }
 
 .nav-top-right {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding-top: 20px;
+    float: right;
+    /* padding-top: 20px; */
 }
 
 ul.login-side li {
@@ -56,7 +56,6 @@ ul.login-side li {
 #select-lenguage, #contact-sales {
     font-size: 20px;
     color: #33475B;
-    padding: 20px 0;
 }
 
 #select-lenguage {
@@ -65,7 +64,7 @@ ul.login-side li {
 }
 
 #contact-sales {
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .fa-globe-europe {
@@ -76,6 +75,10 @@ ul.login-side li {
     margin-left: 3px;
 }
 
+.a-navtop {
+    text-decoration: none;
+}
+
 .login-button {
     margin: 0 15px;
     padding: 10px 25px;
@@ -83,6 +86,7 @@ ul.login-side li {
     color: #ff7a59;
     border: 1px solid #ff7a59;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .get-button {
@@ -91,6 +95,7 @@ ul.login-side li {
     color: #fff;
     border: 1px solid #ff7a59;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .fa-search {
