@@ -16,20 +16,19 @@ body {
 }
 
 /* _____inizio header____ */
-.container-header{
+.container-header {
     padding: 25px;
 }
 
-.container-header::after{
+.container-header::after {
     content: "";
     display: table;
     clear: both;
 }
 
-header {
-    height: 400px;
+/* header {
     background-color: red;
-}
+} */
 
 /* ______header superiore _____*/
 .nav-top {
@@ -43,7 +42,6 @@ header {
 
 .nav-top-right {
     float: right;
-    /* padding-top: 20px; */
 }
 
 ul.login-side li {
@@ -102,13 +100,56 @@ ul.login-side li {
     color: #4fa4bf;
 }
 
-
-
 /*__________ header inferiore_________ */
 .nav-bottom {
-    height: 200px;
-    background-color: yellow;
+    background-color: #fff;
 }
+
+.container-header-bottom::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-header-bottom {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.box-logo {
+    width: 150px;
+    float: left;
+}
+
+.box-logo img {
+    width: 100%;
+}
+
+.menu-bar ul li {
+    list-style-type: none;
+    float: left;
+}
+
+a.a-menu-bar {
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 20px;
+    color: #425b76;
+}
+
+.menu-bar {
+    float: right;
+}
+
+.menu-bar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
 
 /*________inizio sezione after header_______*/
 .after-header-bar {
