@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
 .container {
     height: 100%;
     width: 70%;
@@ -25,10 +29,6 @@ body {
     display: table;
     clear: both;
 }
-
-/* header {
-    background-color: red;
-} */
 
 /* ______header superiore _____*/
 .nav-top {
@@ -134,7 +134,7 @@ a.a-menu-bar {
     display: inline-block;
     text-decoration: none;
     padding: 16px;
-    font-size: 20px;
+    font-size: 18px;
     color: #425b76;
 }
 
@@ -153,8 +153,22 @@ a.a-menu-bar {
 
 /*________inizio sezione after header_______*/
 .after-header-bar {
-    height: 200px;
-    background-color: lightblue;
+    background-color: #425b76;
+}
+
+.container-after-header{
+    background-color: #425b76;
+    padding: 20px 40px;
+}
+
+p.after-header-paragraph{
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+a.a-paragraph-after-header {
+    color: #fff;
 }
 
 /*________inizio sezione jumbotron_______*/
