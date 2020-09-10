@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    background-color: rebeccapurple;
+    margin: auto;
+}
+
+header {
+    height: 400px;
+    background-color: red;
+}
+
+.nav-top {
+    height: 200px;
+    background-color: blue;
+}
+
+.nav-bottom {
+    height: 200px;
+    background-color: yellow;
+}
+
+/*________inizio sezione after header_______*/
+.after-header-bar {
+    height: 200px;
+    background-color: lightblue;
+}
+
+/*________inizio sezione jumbotron_______*/
+.jumbo {
+    height: 500px;
+    background-color: orange;
+}
+
+/*________inizio sezione marketing_______*/
+.marketing {
+    height: 500px;
+    background-color: green;
+}
+
+/*________inizio sezione comunity_______*/
+.comunity {
+    height: 400px;
+    background-color: grey;
+}
+
+/*________inizio sezione customers_______*/
+.customers {
+    height: 300px;
+    background-color: lightgreen;
+}
+
+/*________inizio sezione get-start_______*/
+.get-start {
+    height: 400px;
+    background-color: pink;
+}
+
+/*________inizio footer_______*/
+footer {
+    height: 600px;
+    background-color: black;
+}
