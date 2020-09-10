@@ -4,23 +4,102 @@
     box-sizing: border-box;
 }
 
-.container {
-    height: 100%;
-    width: 80%;
-    background-color: rebeccapurple;
-    margin: auto;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    height: 100%;
+    width: 70%;
+    background-color: #f5f8fa;
+    margin: auto;
+    position: relative;
+}
+
+/* .container-header::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+/* _____inizio header____ */
 header {
     height: 400px;
     background-color: red;
 }
 
+/* ______header superiore _____*/
 .nav-top {
-    height: 200px;
-    background-color: blue;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid grey;
+    position: relative;
 }
 
+.nav-top-left {
+    padding: 30px 10px;
+}
+
+.nav-top-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+}
+
+ul.login-side li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#select-lenguage, #contact-sales {
+    font-size: 20px;
+    color: #33475B;
+    padding: 20px 0;
+}
+
+#select-lenguage {
+    padding-right: 20px;
+    border-right: 3px solid grey;
+}
+
+#contact-sales {
+    padding-left: 20px;
+}
+
+.fa-globe-europe {
+    margin-right: 5px;
+}
+
+.fa-angle-down {
+    margin-left: 3px;
+}
+
+.login-button {
+    margin: 0 15px;
+    padding: 10px 25px;
+    background: #fff;
+    color: #ff7a59;
+    border: 1px solid #ff7a59;
+    border-radius: 3px;
+}
+
+.get-button {
+    padding: 10px 25px;
+    background: #ff7a59;
+    color: #fff;
+    border: 1px solid #ff7a59;
+    border-radius: 3px;
+}
+
+.fa-search {
+    color: #4fa4bf;
+}
+
+
+
+/*__________ header inferiore_________ */
 .nav-bottom {
     height: 200px;
     background-color: yellow;
