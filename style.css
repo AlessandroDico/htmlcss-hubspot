@@ -47,6 +47,7 @@ header{
     width: 100%;
     left: 0;
     top: 0;
+    z-index: 1;
 }
 
 .nav-top-left {
@@ -260,6 +261,10 @@ a.a-paragraph-after-header {
     box-shadow: 0 0 0;
 }
 
+.box-top-right {
+    position: relative;
+}
+
 h2.box-slogan {
     font-size: 32px;
     color: #33475B;
@@ -330,6 +335,21 @@ h5.box-popular-features {
     margin-right: 5px;
 }
 
+.label-new-item {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    width: 50px;
+    padding: 5px 0;
+    background: #00a48d;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 
 
