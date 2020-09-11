@@ -228,8 +228,30 @@ a.a-paragraph-after-header {
 
 /*________inizio sezione marketing_______*/
 .marketing {
-    height: 500px;
     background-color: green;
+}
+
+.container-marketing {
+    padding: 50px 0;
+}
+
+.all-boxes-container {
+}
+
+.box {
+    width: calc(33.33% - 20px);
+    height: 200px;
+    background-color: rebeccapurple;
+    margin: 0 10px;
+    float: left;
+}
+
+.box-bottom-right, .box-top-right {
+    float: right;
+}
+
+.box-top-left, .box-top-center, .box-top-right {
+    margin-bottom: 10px;
 }
 
 /*________inizio sezione comunity_______*/
