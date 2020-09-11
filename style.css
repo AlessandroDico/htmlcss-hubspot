@@ -15,26 +15,38 @@ body {
 
 .container {
     height: 100%;
-    width: 70%;
-    /* background-color: #f5f8fa; */
+    width: 60%;
     margin: auto;
 }
+
+.container::after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+
 
 /* _____inizio header____ */
 .container-header {
     padding: 25px;
 }
 
-.container-header::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 /* ______header superiore _____*/
+
+header{
+    padding-top: 100px;
+}
+
 .nav-top {
     background-color: #f5f8fa;
     border-bottom: 1px solid grey;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 
 .nav-top-left {
@@ -43,6 +55,7 @@ body {
 
 .nav-top-right {
     float: right;
+    margin: 3px 0;
 }
 
 ul.login-side li {
@@ -55,6 +68,8 @@ ul.login-side li {
 #select-lenguage, #contact-sales {
     font-size: 20px;
     color: #33475B;
+    display: inline-block;
+    padding: 10px 0;
 }
 
 #select-lenguage {
@@ -66,15 +81,15 @@ ul.login-side li {
     margin-left: 20px;
 }
 
-.fa-globe-europe {
+i.fa-globe-europe {
     margin-right: 5px;
 }
 
-.fa-angle-down {
+i.fa-angle-down {
     margin-left: 3px;
 }
 
-.a-navtop {
+a.a-navtop {
     text-decoration: none;
 }
 
@@ -106,12 +121,6 @@ ul.login-side li {
     background-color: #fff;
 }
 
-.container-header-bottom::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .container-header-bottom {
     padding: 15px;
     background-color: #fff;
@@ -119,6 +128,7 @@ ul.login-side li {
 
 .box-logo {
     width: 150px;
+    height: 43px;
     float: left;
 }
 
@@ -134,22 +144,15 @@ ul.login-side li {
 a.a-menu-bar {
     display: inline-block;
     text-decoration: none;
-    padding: 16px;
+    padding: 0 16px;
     font-size: 18px;
     color: #425b76;
 }
 
 .menu-bar {
     float: right;
+    padding: 12px 0;
 }
-
-.menu-bar::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
 
 
 /*________inizio sezione after header_______*/
@@ -174,11 +177,45 @@ a.a-paragraph-after-header {
 
 /*________inizio sezione jumbotron_______*/
 .jumbo {
-    height: 500px;
-    background-color: #ffcaad78;
+    background-color: #ffe7da80;
 }
 
-.container-jumbo{
+.container-jumbo {
+    padding: 80px 0;
+}
+
+.container-jumbo-content {
+    width: 38%;
+}
+
+.jumbo-title {
+    font-size: 50px;
+    color: #33475B;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+}
+
+.jumbo-main-paragraph {
+    line-height: 1.6em;
+    font-size: 20px;
+    color: #33475B;
+    margin-bottom: 20px;
+}
+
+.jumbo-button {
+    padding: 25px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.jumbo-last-paragraph {
+    color: #33475B;
+    line-height: 1.5em;
 }
 
 /*____linea brutta che separa le sezioni_____*/
