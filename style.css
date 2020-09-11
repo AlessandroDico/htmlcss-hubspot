@@ -377,12 +377,16 @@ h5.box-popular-features {
     font-size: 18px;
     line-height: 1.5em;
     letter-spacing: 0.03em;
+    padding-bottom: 80px;
 }
- /* __________comunity table da togliere_____ */
-.comunity-table {
-    height: 500px;
+
+.comunity-table-top::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 .table-item {
+    float: left;
     width: 25%;
     text-align: center;
     padding: 30px 50px;
@@ -399,13 +403,24 @@ h5.box-popular-features {
     color: white;
 }
 
-.item-description {
+.icon-plus {
+    vertical-align: middle;
+    font-size: 20px;
     color: white;
 }
 
+.item-description {
+    color: white;
+    letter-spacing: 0.03em;
+}
 
+.comunity-table-top {
+    border-bottom: 1px solid #fff;
+}
 
-
+.table-item-border {
+    border-right: 1px solid #fff;
+}
 
 
 
