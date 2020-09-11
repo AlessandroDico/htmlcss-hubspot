@@ -441,27 +441,47 @@ i.icon-plus {
     border-right: 1px solid #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*________inizio sezione customers_______*/
+/*___________togliere le altezze_____________*/
 .customers {
     height: 300px;
     background-color: lightgreen;
 }
 
+.container-customers::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.customers-left {
+    float: left;
+    height: 100%;
+    width: 40%;
+    background-color: red;
+}
+
+.customers-right {
+    float: right;
+    height: 100%;
+    width: 60%;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*________inizio sezione get-start_______*/
-.get-start {
+
+.get-start-inbound {
     height: 400px;
     background-color: pink;
 }
