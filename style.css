@@ -351,20 +351,74 @@ h5.box-popular-features {
     border-bottom-right-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
 /*________inizio sezione comunity_______*/
 .comunity {
-    height: 400px;
-    background-color: grey;
+    height: 900px;
+    /*__copiato colore spudoratamente__
+    informarsi sull'utilizzo___*/
+    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+    padding: 100px 0;
 }
+
+.container-writings-comunity {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}
+
+.title-comunity {
+    font-size: 32px;
+    margin-bottom: 30px;
+    letter-spacing: 0.05em;
+}
+
+.paragraph-comunity {
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 0.03em;
+}
+ /* __________comunity table da togliere_____ */
+.comunity-table {
+    height: 500px;
+}
+.table-item {
+    width: 25%;
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.table-icon {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.item-number {
+    font-size: 50px;
+    color: white;
+}
+
+.item-description {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*________inizio sezione customers_______*/
 .customers {
