@@ -493,11 +493,10 @@ p.customers-number-paragraph {
 
 
 /*________inizio sezione get-start_______*/
-/*___________togliere le altezze_____________*/
 
 .get-start-inbound {
     background-color: #fff;
-    padding: 60px 0;
+    padding: 60px 0 90px 0;
 }
 
 .get-start-left, .get-start-right {
@@ -535,32 +534,77 @@ p.get-start-paragraph {
     width: 350PX;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*___________togliere le altezze_____________*/
 
 /*________inizio footer_______*/
 footer {
     height: 600px;
-    background-color: black;
+    background-color: #555;
+    padding-top: 100px;
 }
+
+.footer-list {
+    float: left;
+    width: 25%;
+}
+
+.footer-list ul li {
+    list-style-type: none;
+}
+
+a.a-footer-list {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* togliere questa scritta */
