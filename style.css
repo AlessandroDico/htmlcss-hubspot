@@ -442,7 +442,6 @@ i.icon-plus {
 }
 
 /*________inizio sezione customers_______*/
-/*___________togliere le altezze_____________*/
 .customers {
     background-color: #fff;
     padding: 90px 0;
@@ -493,15 +492,72 @@ p.customers-number-paragraph {
 }
 
 
-
-
-
 /*________inizio sezione get-start_______*/
+/*___________togliere le altezze_____________*/
 
 .get-start-inbound {
-    height: 400px;
-    background-color: pink;
+    background-color: #fff;
+    padding: 60px 0;
 }
+
+.get-start-left, .get-start-right {
+    float: left;
+    width: 50%;
+}
+
+.get-start-left {
+    padding: 30px 50px 0 0;
+}
+
+h2.get-start-title {
+    font-size: 32px;
+    color: #33475B;
+    margin-bottom: 30px;
+    letter-spacing: 0.05em;
+}
+
+p.get-start-paragraph {
+    font-size: 18px;
+    color: #33475B;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.get-start-right:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.get-start-right img {
+    float: right;
+    /* display: inline-block; */
+    width: 350PX;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*________inizio footer_______*/
 footer {
