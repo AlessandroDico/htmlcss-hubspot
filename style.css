@@ -444,36 +444,53 @@ i.icon-plus {
 /*________inizio sezione customers_______*/
 /*___________togliere le altezze_____________*/
 .customers {
-    height: 300px;
-    background-color: lightgreen;
+    background-color: #fff;
+    padding: 90px 0;
 }
 
-.container-customers::after {
-    content: '';
-    display: table;
-    clear: both;
+.container-customers {
+    padding: 20px 0;
 }
 
 .customers-left {
     float: left;
-    height: 100%;
     width: 40%;
-    background-color: red;
 }
 
 .customers-right {
     float: right;
-    height: 100%;
     width: 60%;
-    background-color: blue;
+    text-align: center;
 }
 
+h3.customers-number {
+    font-size: 40px;
+    color: #33475B;
+    letter-spacing: 0.03em;
+    padding-bottom: 20px;
+}
 
+p.customers-number-paragraph {
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 0.06em;
+    color: #33475B;
+}
 
+#bolt-number {
+    font-size: 25px;
+}
 
+.customers-logos {
+    display: inline-block;
+    width: 20%;
+    margin: 0 5px;
+}
 
-
-
+.customers-logos img {
+    width: 100%;
+    vertical-align: middle;
+}
 
 
 
