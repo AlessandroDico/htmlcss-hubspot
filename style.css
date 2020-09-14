@@ -52,6 +52,7 @@ header{
 
 .nav-top-left {
     float: left;
+    position: relative;
 }
 
 .nav-top-right {
@@ -90,9 +91,58 @@ i.fa-angle-down {
     margin-left: 3px;
 }
 
-a.a-navtop {
+.nav-top-left a {
     text-decoration: none;
 }
+
+/*________ inizio dropdown menu_____ */
+ul.nav-drop-down-ul {
+    list-style-type: none;
+}
+
+.nav-top-drop-down {
+    display: none;
+    background-color: #fff;
+    width: 110px;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 26px;
+    padding: 10px 0;
+    border: 2px solid #aaa;
+}
+
+.a-dropdown:hover ~ .nav-top-drop-down, .nav-top-drop-down:hover {
+    display: block;
+}
+
+ul.nav-drop-down-ul li {
+    padding: 8px;
+}
+
+ul.nav-drop-down-ul li:hover {
+    background-color: #e1f2fd;
+    cursor: pointer;
+}
+
+a.a-nav-drop-down {
+    font-size: 20px;
+    color: #425b76;
+}
+
+#rhombus {
+    height: 15px;
+    width: 15px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    position: absolute;
+    top: -9px;
+    right: 18px;
+    border-top: 2px solid #aaa;
+    border-left: 2px solid #aaa;
+}
+
+/* __fine parte dropdown__ */
 
 button.login-button {
     margin: 0 15px;
