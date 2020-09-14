@@ -20,9 +20,9 @@ body {
 }
 
 .container::after {
-        content: "";
-        display: table;
-        clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
@@ -212,8 +212,56 @@ a.a-menu-bar {
 
 .menu-bar {
     float: right;
-    padding: 12px 0;
 }
+
+/* ______inizio dropdown sezione navbar inferiore______ */
+
+.dropdown-menu-second-navbar {
+    position: relative;
+    padding: 12px; /*togliere padding a menubar */
+}
+
+.software-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    background-color: lightblue;
+}
+
+/* .software-dropdown::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.dropdown-menu-second-navbar:hover > .software-dropdown {
+    display: block;
+}
+
+/* .dropdown-item {
+    font-size: 20px;
+    color: #425b76;
+    padding-bottom: 20px;
+}
+
+span.span-dropdown {
+    display: block;
+    font-size: 12px;
+    color: #425b76;
+    padding-right: 30px;
+}
+
+.dropdown-icon {
+    font-size: 50px;
+    color: #ff7a59;
+}
+
+a.dropdown-item {
+    text-decoration: none;
+} */
 
 
 /*________inizio sezione after header_______*/
