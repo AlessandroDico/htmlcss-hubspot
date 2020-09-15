@@ -368,44 +368,7 @@ small.dropdown-software-description {
     background-color: #0091ae52;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* fine DROPDOWN resources */
 
 /*________inizio sezione after header_______*/
 .after-header-bar {
@@ -430,14 +393,29 @@ a.a-paragraph-after-header {
 /*________inizio sezione jumbotron_______*/
 .jumbo {
     background-color: #ffe7da80;
+    position: relative;
+}
+
+.jumbo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#jumbo-img-background {
+    position: absolute;
+    bottom: 4px;
+    width: 1200px;
 }
 
 .container-jumbo {
-    padding: 80px 0;
+    padding-top: 80px;
+    /* position: relative; */
 }
 
 .container-jumbo-content {
     width: 38%;
+    padding-bottom: 80px;
 }
 
 .jumbo-title {
@@ -477,10 +455,23 @@ button.jumbo-button:hover{
 
 /*____linea brutta che separa le sezioni_____*/
 .green-row {
-    height: 10vh;
-    background-color: #afebe4;
-    border-top: 3px solid #555;
-    border-bottom: 3px solid #555;
+    height: 81.5px;
+    width: 100%;
+    background: rgb(175,235,228);
+    background: linear-gradient(90deg, rgba(175,235,228,1) 35%, rgba(175,235,228,1) 38%, rgba(0,164,141,1) 68%);
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+}
+
+.right-green-row {
+    position: absolute;
+    /* width: 350px; */
+    width: 18.5%;
+    height: 144.5px;
+    background-color: #00a48d;
+    right: 0;
+    bottom: 3px;
+    border-top: 3px solid #33475b;
 }
 
 /*________inizio sezione marketing_______*/
@@ -902,6 +893,7 @@ a.a-footer-lenguages {
     color: #fff;
     background-color: #526e8a;
     cursor: pointer;
+    z-index: 5;
 }
 
 #fixed-chat-text-area {
@@ -913,6 +905,7 @@ a.a-footer-lenguages {
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0px 0px 11px 6px rgba(107,107,107,1);
+    z-index: 5;
 }
 
 p.fixed-chat-paragraph {
