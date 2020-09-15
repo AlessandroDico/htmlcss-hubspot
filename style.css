@@ -130,16 +130,19 @@ a.a-nav-drop-down {
     color: #425b76;
 }
 
-#rhombus {
+.rhombus {
     height: 15px;
     width: 15px;
     transform: rotate(45deg);
     background-color: #fff;
+    border-top: 2px solid #aaa;
+    border-left: 2px solid #aaa;
+}
+
+#rhombus1 {
     position: absolute;
     top: -9px;
     right: 18px;
-    border-top: 2px solid #aaa;
-    border-left: 2px solid #aaa;
 }
 
 /* __fine parte dropdown__ */
@@ -205,63 +208,104 @@ button.get-button:hover {
 a.a-menu-bar {
     display: inline-block;
     text-decoration: none;
-    padding: 0 16px;
+    padding: 10px 16px;
     font-size: 18px;
     color: #425b76;
 }
 
 .menu-bar {
     float: right;
+    padding: 12px 0;
 }
 
 /* ______inizio dropdown sezione navbar inferiore______ */
-
 .dropdown-menu-second-navbar {
     position: relative;
-    padding: 12px; /*togliere padding a menubar */
 }
 
 .software-dropdown {
     display: none;
     position: absolute;
-    top: 100%;
-    width: 400px;
-    height: 100px;
-    padding: 30px;
-    background-color: lightblue;
+    top: 98%;
+    left: 4%;
+    width: 560px;
+    padding: 20px 30px;
+    background-color: #fff;
+    border: 2px solid #aaa;
 }
 
-/* .software-dropdown::after {
+.dropdown-menu-second-navbar:hover > .software-dropdown,
+.software-dropdown:hover {
+    display: block;
+}
+
+.dropdown-boxes::after {
     content: "";
     display: table;
     clear: both;
-} */
-
-.dropdown-menu-second-navbar:hover > .software-dropdown {
-    display: block;
 }
 
-/* .dropdown-item {
-    font-size: 20px;
-    color: #425b76;
-    padding-bottom: 20px;
+.dropdown-icon, .dropdown-software-writing {
+    float: left;
 }
 
-span.span-dropdown {
-    display: block;
-    font-size: 12px;
-    color: #425b76;
-    padding-right: 30px;
+.dropdown-software-writing {
+    padding-left: 20px;
 }
 
 .dropdown-icon {
-    font-size: 50px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #f5f8fa;
     color: #ff7a59;
 }
 
-a.dropdown-item {
-    text-decoration: none;
-} */
+h4.dropdown-software-title {
+    font-size: 18px;
+    color: #425b76;
+    padding-bottom: 4px;
+}
+
+small.dropdown-software-description {
+    font-size: 12px;
+    color: #425b76;
+}
+
+.software-dropdown-box1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.software-dropdown-box2, .software-dropdown-box3,
+.software-dropdown-box4, .software-dropdown-box6 {
+    padding: 20px 0;
+}
+
+.software-dropdown-box5 {
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+}
+
+#rhombus2 {
+    /*prende come riferimento software-dropdown perchè ha position absolute*/
+    position: absolute;
+    top: -1.75%;
+    left: 15.7%;
+}
+
+#dropdown-new-label {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    width: 50px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #00a48d;
+}
+
+
+
+
 
 
 /*________inizio sezione after header_______*/
