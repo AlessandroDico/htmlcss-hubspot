@@ -235,6 +235,7 @@ a.a-menu-bar {
     border-radius: 5px;
     background-color: #fff;
     border: 2px solid #aaa;
+    z-index: 1;
 }
 
 .dropdown-menu-second-navbar:hover > .software-dropdown {
@@ -323,6 +324,7 @@ small.dropdown-software-description {
     border-radius: 5px;
     background-color: #fff;
     border: 2px solid #aaa;
+    z-index: 1;
 }
 
 .resources-dropdown::after {
@@ -410,7 +412,6 @@ a.a-paragraph-after-header {
 
 .container-jumbo {
     padding-top: 80px;
-    /* position: relative; */
 }
 
 .container-jumbo-content {
@@ -465,7 +466,6 @@ button.jumbo-button:hover{
 
 .right-green-row {
     position: absolute;
-    /* width: 350px; */
     width: 18.5%;
     height: 144.5px;
     background-color: #00a48d;
