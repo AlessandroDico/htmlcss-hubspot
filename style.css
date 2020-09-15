@@ -187,6 +187,7 @@ button.get-button:hover {
 .container-header-bottom {
     padding: 15px;
     background-color: #fff;
+    /*position: relative; data per dropdown*/
 }
 
 .box-logo {
@@ -208,7 +209,7 @@ button.get-button:hover {
 a.a-menu-bar {
     display: inline-block;
     text-decoration: none;
-    padding: 10px 16px;
+    padding: 13px 16px;
     font-size: 18px;
     color: #425b76;
 }
@@ -218,7 +219,8 @@ a.a-menu-bar {
     padding: 12px 0;
 }
 
-/* ______inizio dropdown sezione navbar inferiore______ */
+/* ______inizio DROPDOWN sezione navbar inferiore______ */
+/* __________sezione software______ */
 .dropdown-menu-second-navbar {
     position: relative;
 }
@@ -226,33 +228,40 @@ a.a-menu-bar {
 .software-dropdown {
     display: none;
     position: absolute;
-    top: 98%;
-    left: 4%;
-    width: 560px;
+    width: 590px;
+    top: 85%;
+    left: -32%;
     padding: 20px 30px;
+    border-radius: 5px;
     background-color: #fff;
     border: 2px solid #aaa;
 }
 
-.dropdown-menu-second-navbar:hover > .software-dropdown{
+.dropdown-menu-second-navbar:hover > .software-dropdown {
     display: block;
 }
 
-.dropdown-boxes::after {
+.dropdown-software-boxes::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.dropdown-icon, .dropdown-software-writing {
+.dropdown-software-boxes:hover {
+    background-color: #0091ae52;
+    cursor: pointer;
+}
+
+.dropdown-software-icon, .dropdown-software-writing {
     float: left;
+    margin-left: 5px;
 }
 
 .dropdown-software-writing {
     padding-left: 20px;
 }
 
-.dropdown-icon {
+.dropdown-software-icon {
     font-size: 20px;
     padding: 10px;
     background-color: #f5f8fa;
@@ -271,7 +280,7 @@ small.dropdown-software-description {
 }
 
 .software-dropdown-box1 {
-    padding-bottom: 20px;
+    padding: 20px 0;
     border-bottom: 1px solid grey;
 }
 
@@ -288,8 +297,8 @@ small.dropdown-software-description {
 #rhombus2 {
     /*prende come riferimento software-dropdown perchè ha position absolute*/
     position: absolute;
-    top: -1.75%;
-    left: 15.7%;
+    top: -1.6%;
+    left: 22.7%;
 }
 
 #dropdown-new-label {
@@ -301,6 +310,97 @@ small.dropdown-software-description {
     border-radius: 5px;
     background: #00a48d;
 }
+
+/* __________DROPDOWN sezione resources______ */
+
+.resources-dropdown {
+    display: none;
+    position: absolute;
+    top: 85%;
+    left: -319%;
+    width: 800px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #aaa;
+}
+
+.resources-dropdown::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.dropdown-menu-second-navbar:hover > .resources-dropdown {
+    display: block;
+}
+
+.dropdown-resources-box {
+    margin: auto;
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+
+.software-dropdown-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.software-dropdown-row {
+    margin: 20px 0;
+    border-bottom: 1px solid grey;
+}
+
+
+#rhombus3 {
+    position: absolute;
+    top: -1.9%;
+    left: 67.7%;
+}
+
+.software-dropdown-row3 {
+    margin: 20px 0;
+}
+
+.dropdown-resources-box:hover {
+    background-color: #0091ae52;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
