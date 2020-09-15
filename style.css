@@ -234,8 +234,7 @@ a.a-menu-bar {
     border: 2px solid #aaa;
 }
 
-.dropdown-menu-second-navbar:hover > .software-dropdown,
-.software-dropdown:hover {
+.dropdown-menu-second-navbar:hover > .software-dropdown{
     display: block;
 }
 
